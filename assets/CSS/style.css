@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+h1, h2 {
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #007bff;
+    color: white;
+}
+.completed {
+    background-color: #c3e6cb;
+}
+.in-progress {
+    background-color: #ffeeba;
+}
+.not-started {
+    background-color: #f8d7da;
+}
+.repo-link {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
